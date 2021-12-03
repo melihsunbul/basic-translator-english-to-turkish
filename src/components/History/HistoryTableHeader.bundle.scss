@@ -1,0 +1,28 @@
+tr{
+    height: 40px;
+    border-bottom: 1px solid #0094ff;
+
+    &:nth-child(even){
+      background-color: #359ee9;
+      color: white;
+      &:hover{
+        background-color: #0094ff;
+      }
+    }
+
+    &:first-of-type{
+      font-weight: bold;
+      td:first-of-type{
+        text-align: center;
+      }
+    }
+    td{
+      width: 30%;
+      border-right: 1px solid #0094ff;
+      padding: 1% ;
+    }
+    td:first-of-type{
+      text-align: left;
+     
+    }
+}
