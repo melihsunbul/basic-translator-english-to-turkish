@@ -13,7 +13,7 @@ const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecogni
 const speechRecognition = new SpeechRecognition();
 const FROM_LANG = 'en';
 const TO_LANG = 'tr'
-const API_KEY = "AIzaSyD11ylXgBEAvMeaSYU1DFULsFZJmiRU1Dc";
+const API_KEY = "YOUR_API_KEY";
 
 speechRecognition.continuous = true;
 speechRecognition.interimResults = true;
